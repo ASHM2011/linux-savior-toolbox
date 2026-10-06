@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>styles/main.qss</file>
+    </qresource>
+    <qresource prefix="/translations">
+        <file>translations/linux-savior_en_US.qm</file>
+        <file>translations/linux-savior_zh_TW.qm</file>
+        <file>translations/linux-savior_ja.qm</file>
+        <file>translations/linux-savior_ko.qm</file>
+        <file>translations/linux-savior_ru.qm</file>
+        <file>translations/linux-savior_fr.qm</file>
+        <file>translations/linux-savior_de.qm</file>
+        <file>translations/linux-savior_es.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,24 @@
+CompileFlags:
+  Add:
+    - -std=c++17
+    - -I/usr/include/qt6
+    - -I/usr/include/qt6/QtCore
+    - -I/usr/include/qt6/QtGui
+    - -I/usr/include/qt6/QtWidgets
+    - -I/usr/include/qt6/QtConcurrent
+    - -I/usr/include/qt6/QtDBus
+    - -I/usr/include/qt6/QtNetwork
+    - -I/usr/include/qt6/QtSvg
+    - -I/usr/include/qt6/QtPrintSupport
+    - -I/usr/include/qt6/QtXml
+    - -I/usr/include/qt6/QtTest
+    - -I/usr/lib64/qt6/mkspecs/linux-g++
+    - -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include
+  Compiler: clang++
+
+Diagnostics:
+  UnusedIncludes: None
+  Suppress:
+    - pp_file_not_found
+    - unknown_argument
+    - drv_invalid_include_path

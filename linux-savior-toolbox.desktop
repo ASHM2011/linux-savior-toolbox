@@ -1,0 +1,17 @@
+[Desktop Entry]
+Type=Application
+Name=Linux Savior Toolbox
+Name[zh_CN]=Linux 系统维护工具箱
+GenericName=System Toolbox
+GenericName[zh_CN]=系统工具箱
+Comment=All-in-one Linux system maintenance toolbox
+Comment[zh_CN]=全能Linux系统维护工具箱，集成终端、备份、清理、双系统管理等功能
+Exec=LinuxSaviorToolbox
+Icon=linux-savior-toolbox
+Terminal=false
+Categories=Utility;System;Settings;
+Keywords=terminal;backup;cleanup;system;maintenance;
+Keywords[zh_CN]=终端;备份;清理;系统;维护;
+StartupNotify=true
+StartupWMClass=LinuxSaviorToolbox
+X-GNOME-UsesNotifications=true

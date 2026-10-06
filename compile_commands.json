@@ -1,0 +1,218 @@
+[
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/LinuxSaviorToolbox_autogen/mocs_compilation.cpp.o -c /home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/mocs_compilation.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/LinuxSaviorToolbox_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/main.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/main.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/main.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/MainWindow.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/MainWindow.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/MainWindow.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/MainWindow.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/core/CommandMetadata.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/core/CommandMetadata.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/core/CommandMetadata.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/core/CommandMetadata.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/core/PermissionManager.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/core/PermissionManager.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/core/PermissionManager.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/core/PermissionManager.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/core/SystemDetector.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/core/SystemDetector.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/core/SystemDetector.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/core/SystemDetector.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/core/TranslationManager.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/core/TranslationManager.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/core/TranslationManager.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/core/TranslationManager.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/core/CommandExecutor.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/core/CommandExecutor.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/core/CommandExecutor.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/core/CommandExecutor.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/core/PackageManager.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/core/PackageManager.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/core/PackageManager.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/core/PackageManager.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/SidebarWidget.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/SidebarWidget.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/SidebarWidget.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/SidebarWidget.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/TopBarWidget.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/TopBarWidget.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/TopBarWidget.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/TopBarWidget.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/DashboardWidget.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/DashboardWidget.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/DashboardWidget.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/DashboardWidget.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/EmergencyRepairWidget.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/EmergencyRepairWidget.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/EmergencyRepairWidget.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/EmergencyRepairWidget.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/TerminalWidget.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/TerminalWidget.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/TerminalWidget.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/TerminalWidget.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/SystemCleanupWidget.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/SystemCleanupWidget.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/SystemCleanupWidget.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/SystemCleanupWidget.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/GnomeExtensionWidget.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/GnomeExtensionWidget.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/GnomeExtensionWidget.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/GnomeExtensionWidget.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/DiagnosticReportWidget.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/DiagnosticReportWidget.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/DiagnosticReportWidget.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/DiagnosticReportWidget.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/BackupRestoreWidget.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/BackupRestoreWidget.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/BackupRestoreWidget.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/BackupRestoreWidget.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/CommandAliasWidget.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/CommandAliasWidget.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/CommandAliasWidget.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/CommandAliasWidget.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/CommandReferenceWidget.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/CommandReferenceWidget.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/CommandReferenceWidget.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/CommandReferenceWidget.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/DualBootWidget.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/DualBootWidget.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/DualBootWidget.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/DualBootWidget.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/SettingsWidget.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/SettingsWidget.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/SettingsWidget.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/SettingsWidget.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/CommandDetailDialog.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/CommandDetailDialog.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/CommandDetailDialog.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/CommandDetailDialog.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/ProgressDialog.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/ProgressDialog.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/ProgressDialog.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/ProgressDialog.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/BatchTaskWidget.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/BatchTaskWidget.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/BatchTaskWidget.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/BatchTaskWidget.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/HelpDialog.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/HelpDialog.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/HelpDialog.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/HelpDialog.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/VolumeDetectPage.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/VolumeDetectPage.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/VolumeDetectPage.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/VolumeDetectPage.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/MountChoicePage.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/MountChoicePage.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/MountChoicePage.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/MountChoicePage.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/LuksPasswordDialog.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/LuksPasswordDialog.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/LuksPasswordDialog.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/LuksPasswordDialog.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/ServiceManagerWidget.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/ServiceManagerWidget.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/ServiceManagerWidget.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/ServiceManagerWidget.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/ProcessManagerWidget.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/ProcessManagerWidget.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/ProcessManagerWidget.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/ProcessManagerWidget.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/NetworkDiagnosticWidget.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/NetworkDiagnosticWidget.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/NetworkDiagnosticWidget.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/NetworkDiagnosticWidget.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/LogViewerWidget.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/LogViewerWidget.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/LogViewerWidget.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/LogViewerWidget.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/SystemInfoWidget.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/SystemInfoWidget.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/SystemInfoWidget.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/SystemInfoWidget.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/StartupManagerWidget.cpp.o -c /home/ashm/linux-savior-ui-prototype/src/widgets/StartupManagerWidget.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/src/widgets/StartupManagerWidget.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/src/widgets/StartupManagerWidget.cpp.o"
+},
+{
+  "directory": "/home/ashm/linux-savior-ui-prototype/build",
+  "command": "/usr/bin/c++ -DHAVE_QTERMWIDGET -DQTERMWIDGET6 -DQT_CONCURRENT_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/include -I/home/ashm/linux-savior-ui-prototype/src -I/home/ashm/linux-savior-ui-prototype/src/core -I/home/ashm/linux-savior-ui-prototype/src/widgets -I/home/ashm/linux-savior-ui-prototype/src/utils -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtConcurrent -isystem /usr/include/qt6/QtDBus -O2 -DNDEBUG -Wall -Wextra -std=gnu++17 -o CMakeFiles/LinuxSaviorToolbox.dir/LinuxSaviorToolbox_autogen/F4FAE6NH3Q/qrc_resources.cpp.o -c /home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/F4FAE6NH3Q/qrc_resources.cpp",
+  "file": "/home/ashm/linux-savior-ui-prototype/build/LinuxSaviorToolbox_autogen/F4FAE6NH3Q/qrc_resources.cpp",
+  "output": "CMakeFiles/LinuxSaviorToolbox.dir/LinuxSaviorToolbox_autogen/F4FAE6NH3Q/qrc_resources.cpp.o"
+}
+]
