@@ -204,6 +204,17 @@ void PackageManager::buildCommandMap()
         m_commandMap[Action::UnlockPackageManager] = QStringLiteral("rm -f /var/lib/zypp/lock /var/lib/rpm/.rpm.lock");
         m_commandMap[Action::CheckForUpdates] = QStringLiteral("zypper list-updates");
 
+    } else if (m_systemDetector->isArch() || m_systemDetector->isArchBased()) {
+
+        m_commandMap[Action::UpdateSystem] = QStringLiteral("pacman -Syu --noconfirm");
+        m_commandMap[Action::CleanCache] = QStringLiteral("pacman -Sc --noconfirm");
+        m_commandMap[Action::Autoremove] = QStringLiteral("pacman -Qdtq | pacman -Rs --noconfirm -");
+        m_commandMap[Action::InstallPackage] = QStringLiteral("pacman -S --noconfirm %1");
+        m_commandMap[Action::RemovePackage] = QStringLiteral("pacman -Rns --noconfirm %1");
+        m_commandMap[Action::FixDependencies] = QStringLiteral("pacman -Dk");
+        m_commandMap[Action::UnlockPackageManager] = QStringLiteral("rm -f /var/lib/pacman/db.lck");
+        m_commandMap[Action::CheckForUpdates] = QStringLiteral("pacman -Qu");
+
     } else {
 
         m_commandMap[Action::UpdateSystem] = QStringLiteral("apt update && apt upgrade -y");

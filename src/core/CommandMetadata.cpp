@@ -170,7 +170,7 @@ void CommandMetadataManager::initCommands()
     };
     gnomeShellRestart.safetyLevel = SafetyLevel::Safe;
     gnomeShellRestart.executionEffect = tr("桌面会短暂黑屏闪烁一下，然后恢复正常。所有打开的窗口和程序都会保留。");
-    gnomeShellRestart.commonPitfall = tr("这个操作不需要管理员权限！如果加了sudo反而会出问题。按 Alt+F2 输入 r 也可以达到同样效果。");
+    gnomeShellRestart.commonPitfall = tr("这个操作不需要管理员权限！如果加了sudo反而会出问题。注意：GNOME在Wayland模式下无法重启桌面，需要注销重新登录。");
     gnomeShellRestart.category = CommandCategory::DesktopRepair;
     gnomeShellRestart.supportedDistros = {"ubuntu", "fedora", "debian", "opensuse", "arch", "manjaro"};
     gnomeShellRestart.supportedDesktops = {"gnome"};
@@ -517,7 +517,7 @@ void CommandMetadataManager::initCommands()
     cleanJournalLogs.executionEffect = tr("旧的系统日志被删除，只保留最近的日志记录。");
     cleanJournalLogs.commonPitfall = tr("安全操作。只删除旧日志，不影响系统运行。如果需要排查问题建议先保留日志。");
     cleanJournalLogs.category = CommandCategory::SystemCleanup;
-    cleanJournalLogs.supportedDistros = {"ubuntu", "fedora", "debian", "opensuse"};
+    cleanJournalLogs.supportedDistros = {"ubuntu", "fedora", "debian", "opensuse", "arch", "manjaro"};
     cleanJournalLogs.supportedDesktops = {"gnome", "kde", "xfce"};
     m_commands[cleanJournalLogs.id] = cleanJournalLogs;
 
@@ -695,25 +695,27 @@ void CommandMetadataManager::initCommands()
     networkRestart.executionEffect = tr("网络服务会重启，所有网络连接会断开后自动重连。");
     networkRestart.commonPitfall = tr("重启过程中网络会短暂中断，几秒钟后自动恢复。");
     networkRestart.category = CommandCategory::Network;
-    networkRestart.supportedDistros = {"ubuntu", "fedora", "debian", "opensuse"};
+    networkRestart.supportedDistros = {"ubuntu", "fedora", "debian", "opensuse", "arch", "manjaro"};
     networkRestart.supportedDesktops = {"gnome", "kde", "xfce"};
     m_commands[networkRestart.id] = networkRestart;
 
     CommandMetadata dnsFlush;
     dnsFlush.id = "dns_flush";
-    dnsFlush.command = "systemd-resolve --flush-caches";
+    dnsFlush.command = "resolvectl flush-caches 2>/dev/null || systemd-resolve --flush-caches";
     dnsFlush.needsAdmin = true;
     dnsFlush.friendlyName = tr("刷新DNS缓存");
     dnsFlush.corePurpose = tr("清空本地DNS缓存，解决网站打不开、域名解析错误等问题。");
     dnsFlush.paramBreakdown = {
-        {"systemd-resolve", tr("systemd DNS解析服务")},
-        {"--flush-caches", tr("刷新DNS缓存")}
+        {"resolvectl", tr("systemd DNS解析服务管理工具")},
+        {"flush-caches", tr("清空DNS缓存")},
+        {"||", tr("如果前面的命令失败，尝试备用命令")},
+        {"systemd-resolve", tr("旧版systemd的DNS工具（备用）")}
     };
     dnsFlush.safetyLevel = SafetyLevel::Safe;
     dnsFlush.executionEffect = tr("DNS缓存被清空，下次访问网站时会重新查询DNS。");
     dnsFlush.commonPitfall = tr("安全操作。如果某些网站打不开，可以尝试刷新DNS。");
     dnsFlush.category = CommandCategory::Network;
-    dnsFlush.supportedDistros = {"ubuntu", "fedora", "debian", "opensuse"};
+    dnsFlush.supportedDistros = {"ubuntu", "fedora", "debian", "opensuse", "arch", "manjaro"};
     dnsFlush.supportedDesktops = {"gnome", "kde", "xfce"};
     m_commands[dnsFlush.id] = dnsFlush;
 
@@ -752,9 +754,30 @@ void CommandMetadataManager::initCommands()
     nvidiaInstallUbuntu.executionEffect = tr("系统会自动下载并安装推荐版本的NVIDIA驱动，安装完成后需要重启。");
     nvidiaInstallUbuntu.commonPitfall = tr("⚠️ 安装完成后必须重启电脑才能生效！安装过程中不要中断。");
     nvidiaInstallUbuntu.category = CommandCategory::Hardware;
-    nvidiaInstallUbuntu.supportedDistros = {"ubuntu", "debian"};
+    nvidiaInstallUbuntu.supportedDistros = {"ubuntu", "mint"};
     nvidiaInstallUbuntu.supportedDesktops = {"gnome", "kde", "xfce"};
     m_commands[nvidiaInstallUbuntu.id] = nvidiaInstallUbuntu;
+
+    CommandMetadata nvidiaInstallArch;
+    nvidiaInstallArch.id = "nvidia_install_arch";
+    nvidiaInstallArch.command = "pacman -S --noconfirm nvidia nvidia-utils";
+    nvidiaInstallArch.needsAdmin = true;
+    nvidiaInstallArch.friendlyName = tr("安装NVIDIA驱动");
+    nvidiaInstallArch.corePurpose = tr("安装NVIDIA显卡驱动，适用于Arch和Manjaro系统。");
+    nvidiaInstallArch.paramBreakdown = {
+        {"pacman", tr("Arch Linux包管理器")},
+        {"-S", tr("安装软件包")},
+        {"nvidia", tr("NVIDIA内核驱动模块")},
+        {"nvidia-utils", tr("NVIDIA用户态驱动库")},
+        {"--noconfirm", tr("自动确认")}
+    };
+    nvidiaInstallArch.safetyLevel = SafetyLevel::Caution;
+    nvidiaInstallArch.executionEffect = tr("NVIDIA驱动被安装，需要重启后生效。");
+    nvidiaInstallArch.commonPitfall = tr("⚠️ 安装完成后必须重启！如果使用自定义内核，需要安装对应的nvidia-lts包。");
+    nvidiaInstallArch.category = CommandCategory::Hardware;
+    nvidiaInstallArch.supportedDistros = {"arch", "manjaro"};
+    nvidiaInstallArch.supportedDesktops = {"gnome", "kde", "xfce"};
+    m_commands[nvidiaInstallArch.id] = nvidiaInstallArch;
 
     CommandMetadata nvidiaInstallFedora;
     nvidiaInstallFedora.id = "nvidia_install_fedora";
